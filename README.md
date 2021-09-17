@@ -8,6 +8,8 @@ The files in this repository are :
   2. **Pump it Up - Preprocessing & Feature Engineering** - Pre processing the data and employing feature engineering techniques to the features of the dataset to create a clean     dataset that was used for modelling
   3. **Pump it Up - Modelling & Post processing** - Using various modelling techniques on the cleaned dataset generated from the notebook above and comparing result, Post processing was also conducted
 
+The best score obtained was **82.38%** for the model **CATBOOST**
+
 
 ## Exploratory Data Analysis
 
@@ -37,13 +39,14 @@ Finally based on the exploratory data analysis conducted on the features multipl
 ## Modelling and Postprocessing
 
 ### Models used
-  1. CATBoost Classifer
+  1. CATBOOST Classifer
   2. RandomForestClassifier
   3. ExtraTreesClassifier
   4. XGBClassifier
   5. GradientBoostingClassifier
   6. SVM
   7. AdaBoost Classifier
+  8. DecisionTree Classifier
  
 ### Post processing
 Feature importance plots were plotted to identify the most important features, using RandomForest Classifier. SHAP dependence contribution plots were also plotted as part of post processing.
@@ -53,5 +56,8 @@ Feature importance plots were plotted to identify the most important features, u
 
 DrivenData Username - **moracse_170454J**
 
+Final Score image from DrivenData -
+
+![Final_Score](https://user-images.githubusercontent.com/46758295/133831549-6517c6c5-a578-4247-bf0f-710618acfb47.JPG)
 
       
